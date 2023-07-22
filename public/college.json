@@ -6,13 +6,13 @@
       "admission_date": "2023-08-20",
       "events": [
         {
-          "name": "Freshman Welcome Party",
+          "name": "Welcome Party",
           "date": "2023-09-05",
           "location": "Campus Quadrangle",
           "description": "Join us for a fun-filled welcome party for all new students!"
         },
         {
-          "name": "Annual Arts Showcase",
+          "name": "Annual Arts",
           "date": "2024-04-10",
           "location": "University Art Gallery",
           "description": "Experience the creativity and talent of our students at the Annual Arts Showcase."
@@ -25,7 +25,7 @@
           "description": "Eastwood University researchers made significant strides in AI applications."
         },
         {
-          "title": "Exploration of Sustainable Architecture",
+          "title": "Sustainable Architecture",
           "date": "2024-02-28",
           "description": "A team of architects and engineers at Eastwood University designed sustainable building prototypes."
         }
@@ -40,6 +40,16 @@
           "name": "Basketball",
           "coach": "Sarah Johnson",
           "home_arena": "Eastwood Arena"
+        },
+        {
+          "name": "Cricket",
+          "coach": "Sarah Johnson",
+          "home_arena": "Eastwood Arena"
+        },
+        {
+          "name": "Hockey",
+          "coach": "Sarah Johnson",
+          "home_arena": "Eastwood Arena"
         }
       ]
     }
@@ -52,7 +62,7 @@
       "admission_date": "2023-09-01",
       "events": [
         {
-          "name": "New Student Orientation",
+          "name": "Student Orientation",
           "date": "2023-09-10",
           "location": "Student Union",
           "description": "Welcome all new students to our college community!"
@@ -86,6 +96,16 @@
           "name": "Volleyball",
           "coach": "Jessica Adams",
           "home_arena": "Centralville Arena"
+        },
+        {
+          "name": "Baseball ",
+          "coach": "Jessica Adams",
+          "home_arena": "Centralville Arena"
+        },
+        {
+          "name": "Badminton",
+          "coach": "Jessica Adams",
+          "home_arena": "Centralville Arena"
         }
       ]
     }
@@ -104,7 +124,7 @@
           "description": "Join us for an exciting carnival with games, food, and entertainment!"
         },
         {
-          "name": "Annual Science Symposium",
+          "name": "Annual Symposium",
           "date": "2024-04-15",
           "location": "University Auditorium",
           "description": "Explore the latest scientific research and breakthroughs at the Science Symposium."
@@ -130,6 +150,16 @@
         },
         {
           "name": "Tennis",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Basketball",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Golf",
           "coach": "John Anderson",
           "home_courts": "Riverside Tennis Courts"
         }
