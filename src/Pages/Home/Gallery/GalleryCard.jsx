@@ -2,7 +2,7 @@
 const GalleryCard = ({ student }) => {
   // eslint-disable-next-line react/prop-types
   const group = student;
-  const { image, name } = group;
+  const { image } = group;
 
   console.log(group);
   return (
