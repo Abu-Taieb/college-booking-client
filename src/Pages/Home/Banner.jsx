@@ -9,8 +9,8 @@ const Banner = () => {
     >
       <div className="hero-overlay bg-opacity-70"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="w-2/3">
-          <h1 className="mb-5 text-5xl font-bold">Welcome to our TAG College.</h1>
+        <div className="w-full md:w-2/3 px-5">
+          <h1 className="mb-5 text-4xl md:text-5xl font-bold uppercase">Welcome to our top of the world <strong className="text-accent">TAG</strong> Colleges.</h1>
           <p className="mb-5">
             This college is an awesome environment, and our teacher teaching is excellent to other college. If you want to grow up your career you can admit this college.
           </p>
