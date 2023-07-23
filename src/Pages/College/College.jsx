@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import CollegeRouteData from "./CollegeRouteData";
+import Admission from "../Admission/Admission";
 
 const College = () => {
   const [colleges, setColleges] = useState([]);

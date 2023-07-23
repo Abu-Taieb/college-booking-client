@@ -5,6 +5,7 @@ import College from "../../Pages/College/College";
 import Admission from "../../Pages/Admission/Admission";
 import MyCollege from "../../Pages/MyCollege/MyCollege";
 import Contact from "../../Pages/Contact/Contact";
+import Form from "../../Pages/Admission/Form";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "form",
+        element: <Form></Form>,
       },
     ],
   },
