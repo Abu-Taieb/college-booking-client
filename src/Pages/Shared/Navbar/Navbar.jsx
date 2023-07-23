@@ -25,34 +25,40 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a>HOME</a>
               </li>
               <li>
-                <a>Colleges</a>
+                <a>COLLEGE</a>
               </li>
               <li>
-                <a>Admission</a>
+                <a>ADMISSION</a>
               </li>
               <li>
-                <a>My College</a>
+                <a>MY COLLEGE</a>
+              </li>
+              <li>
+                <a>CONTACT</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-2xl">TGA College</a>
+          <a className="btn btn-ghost normal-case text-2xl">TGA COLLEGE</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-xl">
             <li>
-              <a>Home</a>
+              <a>HOME</a>
             </li>
             <li>
-              <a>Colleges</a>
+              <a>COLLEGE</a>
             </li>
             <li>
-              <a>Admission</a>
+              <a>ADMISSION</a>
             </li>
             <li>
-              <a>My College</a>
+              <a>MY COLLEGE</a>
+            </li>
+            <li>
+              <a>CONTACT</a>
             </li>
           </ul>
         </div>
