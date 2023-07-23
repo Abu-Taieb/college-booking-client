@@ -2,7 +2,7 @@ const Testimonial = () => {
   return (
     <>
       <div className="w-full md:w-11/12 m-auto px-5">
-        <div className="text-center py-10 w-full md:w-3/5 m-auto my-10">
+        <div className="text-center py-10 w-full md:w-3/5 m-auto mt-10">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase mb-5">
             Our Testimonial
           </h2>
@@ -11,7 +11,7 @@ const Testimonial = () => {
             You can chose any college of your choice.
           </p>
         </div>
-        <div className="w-1/2 m-auto">
+        <div className="w-full md:w-1/2 m-auto px-5">
           <div className="carousel">
             <div id="slide1" className="carousel-item relative w-full">
               <div className="flex flex-col md:flex-row items-center">

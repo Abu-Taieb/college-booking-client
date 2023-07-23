@@ -1,9 +1,11 @@
-[{
+[
+  {
     "college": {
       "id": 1001,
       "name": "Eastwood College",
-      "image" : "https://i.ibb.co/FHzbYDR/college-1.jpg",
+      "image": "https://i.ibb.co/FHzbYDR/college-1.jpg",
       "admission_date": "2023-08-20",
+      "rating": 4.8,
       "events": [
         {
           "name": "Welcome Party",
@@ -58,8 +60,9 @@
     "college": {
       "id": 2002,
       "name": "Centralville College",
-      "image" : "https://i.ibb.co/486FbC8/college-2.jpg",
+      "image": "https://i.ibb.co/486FbC8/college-2.jpg",
       "admission_date": "2023-09-01",
+      "rating": 4.2,
       "events": [
         {
           "name": "Student Orientation",
@@ -114,8 +117,9 @@
     "college": {
       "id": 3003,
       "name": "Riverside College",
-      "image" : "https://i.ibb.co/3dcz3NS/college-3.jpg",
+      "image": "https://i.ibb.co/3dcz3NS/college-3.jpg",
       "admission_date": "2023-08-15",
+      "rating": 4.5,
       "events": [
         {
           "name": "Campus Carnival",
@@ -165,5 +169,176 @@
         }
       ]
     }
-  }  
+  },
+  {
+    "college": {
+      "id": 4004,
+      "name": "Imperial College",
+      "image": "https://i.ibb.co/VgcHqQF/new-1.jpg",
+      "admission_date": "2023-07-25",
+      "rating": 4.6,
+      "events": [
+        {
+          "name": "Campus Carnival",
+          "date": "2023-09-20",
+          "location": "Campus Grounds",
+          "description": "Join us for an exciting carnival with games, food, and entertainment!"
+        },
+        {
+          "name": "Annual Symposium",
+          "date": "2024-04-15",
+          "location": "University Auditorium",
+          "description": "Explore the latest scientific research and breakthroughs at the Science Symposium."
+        }
+      ],
+      "research_history": [
+        {
+          "title": "Advancements in Renewable Energy",
+          "date": "2023-12-05",
+          "description": "Riverside Institute researchers made significant strides in renewable energy technologies."
+        },
+        {
+          "title": "Innovations in Biotechnology",
+          "date": "2024-03-10",
+          "description": "A team of bio technologists at Riverside Institute developed innovative biotech solutions."
+        }
+      ],
+      "sports": [
+        {
+          "name": "Swimming",
+          "coach": "Sarah Johnson",
+          "home_pool": "Riverside Aquatics Center"
+        },
+        {
+          "name": "Tennis",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Basketball",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Golf",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        }
+      ]
+    }
+  },
+  {
+    "college": {
+      "id": 5005,
+      "name": "Princeton College",
+      "image": "https://i.ibb.co/x14CXhH/new-2.jpg",
+      "admission_date": "2023-06-17",
+      "rating": 4.3,
+      "events": [
+        {
+          "name": "Campus Carnival",
+          "date": "2023-09-20",
+          "location": "Campus Grounds",
+          "description": "Join us for an exciting carnival with games, food, and entertainment!"
+        },
+        {
+          "name": "Annual Symposium",
+          "date": "2024-04-15",
+          "location": "University Auditorium",
+          "description": "Explore the latest scientific research and breakthroughs at the Science Symposium."
+        }
+      ],
+      "research_history": [
+        {
+          "title": "Advancements in Renewable Energy",
+          "date": "2023-12-05",
+          "description": "Riverside Institute researchers made significant strides in renewable energy technologies."
+        },
+        {
+          "title": "Innovations in Biotechnology",
+          "date": "2024-03-10",
+          "description": "A team of biotechnologists at Riverside Institute developed innovative biotech solutions."
+        }
+      ],
+      "sports": [
+        {
+          "name": "Swimming",
+          "coach": "Sarah Johnson",
+          "home_pool": "Riverside Aquatics Center"
+        },
+        {
+          "name": "Tennis",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Basketball",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Golf",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        }
+      ]
+    }
+  },
+  {
+    "college": {
+      "id": 6006,
+      "name": "Toronto College",
+      "image": "https://i.ibb.co/d4Kp9GV/new-3.jpg",
+      "admission_date": "2023-04-28",
+      "rating": 4.1,
+      "events": [
+        {
+          "name": "Campus Carnival",
+          "date": "2023-09-20",
+          "location": "Campus Grounds",
+          "description": "Join us for an exciting carnival with games, food, and entertainment!"
+        },
+        {
+          "name": "Annual Symposium",
+          "date": "2024-04-15",
+          "location": "University Auditorium",
+          "description": "Explore the latest scientific research and breakthroughs at the Science Symposium."
+        }
+      ],
+      "research_history": [
+        {
+          "title": "Advancements in Renewable Energy",
+          "date": "2023-12-05",
+          "description": "Riverside Institute researchers made significant strides in renewable energy technologies."
+        },
+        {
+          "title": "Innovations in Biotechnology",
+          "date": "2024-03-10",
+          "description": "A team of biotechnologists at Riverside Institute developed innovative biotech solutions."
+        }
+      ],
+      "sports": [
+        {
+          "name": "Swimming",
+          "coach": "Sarah Johnson",
+          "home_pool": "Riverside Aquatics Center"
+        },
+        {
+          "name": "Tennis",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Basketball",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        },
+        {
+          "name": "Golf",
+          "coach": "John Anderson",
+          "home_courts": "Riverside Tennis Courts"
+        }
+      ]
+    }
+  }
 ]

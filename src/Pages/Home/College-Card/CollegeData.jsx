@@ -21,7 +21,7 @@ const CollegeData = () => {
             You can chose any college of your choice.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-10">
           {colleges.map((college) => (
             <Card key={college.id} college={college}></Card>
           ))}
