@@ -14,7 +14,7 @@ const Banner = () => {
           <p className="mb-5">
             This college is an awesome environment, and our teacher teaching is excellent to other college. If you want to grow up your career you can admit this college.
           </p>
-          <button className="btn btn-accent font-bold">Admission Open</button>
+          <button className="btn btn-accent font-bold">Admission Open </button>
         </div>
       </div>
     </div>
