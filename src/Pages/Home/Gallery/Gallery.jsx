@@ -6,7 +6,7 @@ const Gallery = () => {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/gallery")
+    fetch("https://college-booking-server-iota.vercel.app/gallery")
       .then((res) => res.json())
       .then((data) => setStudents(data));
   }, []);

@@ -5,7 +5,7 @@ const Admission = () => {
   const [admissions, setAdmissions] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/college")
+    fetch("https://college-booking-server-iota.vercel.app/college")
       .then((res) => res.json())
       .then((data) => setAdmissions(data));
   }, []);
