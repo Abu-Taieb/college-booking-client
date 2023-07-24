@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const AdmissionCard = ({ admission }) => {
-  const admitData = admission.college;
+  const admitData = admission;
   return (
     <div>
       <div className="card w-full border border-accent text-accent-content">
@@ -17,7 +17,7 @@ const AdmissionCard = ({ admission }) => {
           </p>
           <div className="card-actions justify-end">
             <Link to={'/form'}>
-              <button className="btn btn-accent">Details</button>
+              <button className="btn btn-accent">Admission</button>
             </Link>
           </div>
         </div>

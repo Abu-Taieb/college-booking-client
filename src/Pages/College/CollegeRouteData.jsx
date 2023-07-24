@@ -1,5 +1,5 @@
 const CollegeRouteData = ({ college }) => {
-  const allData = college.college;
+  const allData = college;
   const { name, image, admission_date, events, research_history, rating } =
     allData;
 

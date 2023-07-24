@@ -2,7 +2,7 @@
 // eslint-disable-next-line react/prop-types
 const Card = ({ college }) => {
   // eslint-disable-next-line react/prop-types
-  const colData = college.college;
+  const colData = college;
   // eslint-disable-next-line react/prop-types
   const { name, image, admission_date, events, research_history, sports } =
     colData;
