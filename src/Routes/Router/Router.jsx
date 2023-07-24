@@ -7,6 +7,8 @@ import MyCollege from "../../Pages/MyCollege/MyCollege";
 import Contact from "../../Pages/Contact/Contact";
 import Form from "../../Pages/Admission/Form";
 import Error from "../../Pages/Error/Error";
+import SignIn from "../../Pages/Authentication/SignIn";
+import SignUp from "../../Pages/Authentication/SignUp";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "signIn",
+        element: <SignIn></SignIn>,
+      },
+      {
+        path: "signUp",
+        element: <SignUp></SignUp>,
       },
       {
         path: "college",
@@ -38,8 +48,9 @@ export const router = createBrowserRouter([
         element: <Form></Form>,
       },
     ],
-  },{
-    path: '*',
-    element: <Error></Error>
-  }
+  },
+  {
+    path: "*",
+    element: <Error></Error>,
+  },
 ]);

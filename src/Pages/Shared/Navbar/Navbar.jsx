@@ -65,7 +65,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-accent">Button</a>
+          <Link to={'signIn'} className="btn btn-accent">Sign In</Link>
         </div>
       </div>
     </div>
